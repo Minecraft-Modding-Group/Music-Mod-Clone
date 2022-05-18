@@ -1,0 +1,160 @@
+{
+  "mod_elements": [
+    {
+      "name": "MusicMod",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_mod"
+    },
+    {
+      "name": "EarDestroyerRightclicked",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ear_destroyer_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SpeedBringerMagicScroll",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "speed_bringer_magic_scroll"
+    },
+    {
+      "name": "LightningSongMagicScrollRightclicked",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_song_magic_scroll_rightclicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LightningSongMagicScroll",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lightning_song_magic_scroll"
+    },
+    {
+      "name": "Eightnotes",
+      "type": "particle",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eightnotes"
+    },
+    {
+      "name": "Furelise",
+      "type": "musicdisc",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "furelise"
+    },
+    {
+      "name": "MusicblockonheadItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musicblockonhead_item_in_inventory_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Musicblockonhead",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musicblockonhead"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "furelise",
+      "files": [
+        "beethoven-fur-elise"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "subtitles.furelise": "",
+      "item.random_mod.furelise": "Fur Elise",
+      "item.random_mod.lightning_song_magic_scroll": "Lightning Song Magic Scroll",
+      "itemGroup.tabmusic_mod": "Music Mod",
+      "item.random_mod.furelise.desc": "Fur-elise-Beethoven",
+      "item.random_mod.musicblockonhead": "Musicblockonhead",
+      "item.random_mod.speed_bringer_magic_scroll": "Speed Bringer Magic Scroll"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "random_mod",
+    "modName": "random mod",
+    "version": "1.0.0",
+    "author": "smootfam, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "net.mcreator.randommod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

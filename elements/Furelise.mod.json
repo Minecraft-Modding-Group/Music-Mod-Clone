@@ -1,0 +1,17 @@
+{
+  "_fv": 28,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "furelise",
+    "name": "Fur Elise",
+    "description": "Fur-elise-Beethoven",
+    "creativeTab": {
+      "value": "CUSTOM:MusicMod"
+    },
+    "music": {
+      "value": "CUSTOM:furelise"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

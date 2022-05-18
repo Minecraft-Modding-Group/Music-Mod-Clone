@@ -1,0 +1,11 @@
+{
+  "furelise": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "random_mod:beethoven-fur-elise",
+        "stream": false
+      }
+    ]
+  }
+}
