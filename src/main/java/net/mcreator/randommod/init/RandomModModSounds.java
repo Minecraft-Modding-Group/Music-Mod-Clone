@@ -19,6 +19,8 @@ public class RandomModModSounds {
 	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
 	static {
 		REGISTRY.put(new ResourceLocation("random_mod", "furelise"), new SoundEvent(new ResourceLocation("random_mod", "furelise")));
+		REGISTRY.put(new ResourceLocation("random_mod", "ukulele"), new SoundEvent(new ResourceLocation("random_mod", "ukulele")));
+		REGISTRY.put(new ResourceLocation("random_mod", "pliug"), new SoundEvent(new ResourceLocation("random_mod", "pliug")));
 	}
 
 	@SubscribeEvent

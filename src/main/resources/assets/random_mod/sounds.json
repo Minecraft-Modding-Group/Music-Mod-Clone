@@ -7,5 +7,23 @@
         "stream": false
       }
     ]
+  },
+  "ukulele": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "random_mod:trap-pack-ukulele",
+        "stream": false
+      }
+    ]
+  },
+  "pliug": {
+    "category": "neutral",
+    "sounds": [
+      {
+        "name": "random_mod:glistening-rise-harp_e_minor",
+        "stream": false
+      }
+    ]
   }
 }

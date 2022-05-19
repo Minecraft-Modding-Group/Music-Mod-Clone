@@ -111,6 +111,240 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "musicblockonhead"
+    },
+    {
+      "name": "Symphonybar",
+      "type": "item",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "symphonybar"
+    },
+    {
+      "name": "Eightnote",
+      "type": "item",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eightnote"
+    },
+    {
+      "name": "Ukelllel",
+      "type": "rangeditem",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ukelllel"
+    },
+    {
+      "name": "Symphonybareaten",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "symphonybareaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Musical",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical"
+    },
+    {
+      "name": "MusicalOre",
+      "type": "block",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_ore"
+    },
+    {
+      "name": "MusicalBlock",
+      "type": "block",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_block"
+    },
+    {
+      "name": "MusicalOreBlockRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_ore_block_recipe"
+    },
+    {
+      "name": "MusicalBlockOreRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_block_ore_recipe"
+    },
+    {
+      "name": "MusicalOreSmelting",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_ore_smelting"
+    },
+    {
+      "name": "MusicalPickaxe",
+      "type": "tool",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_pickaxe"
+    },
+    {
+      "name": "MusicalAxe",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_axe"
+    },
+    {
+      "name": "MusicalSword",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_sword"
+    },
+    {
+      "name": "MusicalShovel",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_shovel"
+    },
+    {
+      "name": "MusicalHoe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_hoe"
+    },
+    {
+      "name": "MusicalPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_pickaxe_recipe"
+    },
+    {
+      "name": "MusicalAxeRecipe",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_axe_recipe"
+    },
+    {
+      "name": "MusicalSwordRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_sword_recipe"
+    },
+    {
+      "name": "MusicalShovelRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_shovel_recipe"
+    },
+    {
+      "name": "MusicalHoeRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_hoe_recipe"
+    },
+    {
+      "name": "MusicalArmor",
+      "type": "armor",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "MusicalArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_armor_helmet_recipe"
+    },
+    {
+      "name": "MusicalArmorBodyRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_armor_body_recipe"
+    },
+    {
+      "name": "MusicalArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_armor_leggings_recipe"
+    },
+    {
+      "name": "MusicalArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "musical_armor_boots_recipe"
+    },
+    {
+      "name": "Pling",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pling",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -122,17 +356,50 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "ukulele",
+      "files": [
+        "trap-pack-ukulele"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "pliug",
+      "files": [
+        "glistening-rise-harp_e_minor"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "en_us": {
-      "subtitles.furelise": "",
-      "item.random_mod.furelise": "Fur Elise",
+      "item.random_mod.symphonybar": "Symphonybar",
+      "item.random_mod.musical_pickaxe": "Musical Pickaxe",
+      "block.random_mod.musical_block": "Block of Musical",
       "item.random_mod.lightning_song_magic_scroll": "Lightning Song Magic Scroll",
+      "subtitles.pliug": "",
+      "item.random_mod.musical_armor_helmet": "Musical Helmet",
+      "item.random_mod.musical_shovel": "Musical Shovel",
+      "item.random_mod.musical_armor_leggings": "Musical Leggings",
+      "item.random_mod.eightnote": "Eightnote",
+      "item.random_mod.musical": "Musical",
+      "block.random_mod.musical_ore": "Musical Ore",
+      "item.random_mod.musical_axe": "Musical Axe",
+      "item.random_mod.musical_sword": "Musical Sword",
+      "item.random_mod.furelise.desc": "Now-Playing-Fur-elise-Beethoven",
+      "item.random_mod.musical_armor_boots": "Musical Boots",
+      "item.random_mod.speed_bringer_magic_scroll": "Speed Bringer Magic Scroll",
+      "subtitles.ukulele": "",
+      "subtitles.furelise": "",
+      "item.random_mod.musical_armor_chestplate": "Musical Chestplate",
+      "item.random_mod.furelise": "Fur Elise",
+      "item.random_mod.musical_hoe": "Musical Hoe",
       "itemGroup.tabmusic_mod": "Music Mod",
-      "item.random_mod.furelise.desc": "Fur-elise-Beethoven",
       "item.random_mod.musicblockonhead": "Musicblockonhead",
-      "item.random_mod.speed_bringer_magic_scroll": "Speed Bringer Magic Scroll"
+      "item.random_mod.ukelllel": "Ukelllel"
     }
   },
   "foldersRoot": {
