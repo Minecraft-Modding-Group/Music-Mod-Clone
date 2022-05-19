@@ -8,7 +8,7 @@
     "name": "Musical Axe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:MusicMod"
     },
     "toolType": "Axe",
     "harvestLevel": 4,

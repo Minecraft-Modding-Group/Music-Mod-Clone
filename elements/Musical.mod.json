@@ -8,7 +8,7 @@
     "name": "Musical",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:MusicMod"
     },
     "stackSize": 64,
     "enchantability": 0,
