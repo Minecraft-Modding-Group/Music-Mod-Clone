@@ -7,12 +7,12 @@ import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.randommod.procedures.PlingProcedure;
+import net.mcreator.randommod.init.RandomModModTabs;
 import net.mcreator.randommod.init.RandomModModItems;
 
 public class MusicalAxeItem extends AxeItem {
@@ -41,7 +41,7 @@ public class MusicalAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(RandomModModItems.MUSICAL.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(CreativeModeTab.TAB_TOOLS));
+		}, 1, -3f, new Item.Properties().tab(RandomModModTabs.TAB_MUSIC_MOD));
 	}
 
 	@Override

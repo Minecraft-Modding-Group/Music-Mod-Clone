@@ -6,9 +6,11 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
+import net.mcreator.randommod.init.RandomModModTabs;
+
 public class EightnoteItem extends Item {
 	public EightnoteItem() {
-		super(new Item.Properties().tab(null).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(RandomModModTabs.TAB_MUSIC_MOD).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override
