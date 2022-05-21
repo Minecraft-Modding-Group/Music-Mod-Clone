@@ -8,7 +8,7 @@
     "name": "Musical Shovel",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:MusicMod"
     },
     "toolType": "Spade",
     "harvestLevel": 4,

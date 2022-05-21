@@ -8,7 +8,7 @@
     "name": "Musical Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:MusicMod"
     },
     "toolType": "Hoe",
     "harvestLevel": 4,

@@ -377,8 +377,8 @@
   "language_map": {
     "en_us": {
       "item.random_mod.symphonybar": "Symphonybar",
-      "block.random_mod.musical_block": "Block of Musical",
       "item.random_mod.musical_pickaxe": "Musical Pickaxe",
+      "block.random_mod.musical_block": "Block of Musical",
       "item.random_mod.lightning_song_magic_scroll": "Lightning Song Magic Scroll",
       "subtitles.pliug": "",
       "item.random_mod.musical_armor_helmet": "Musical Helmet",

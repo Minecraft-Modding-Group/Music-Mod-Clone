@@ -10,7 +10,7 @@
       "play music AND KILL"
     ],
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:MusicMod"
     },
     "stackSize": 1,
     "ammoItem": {

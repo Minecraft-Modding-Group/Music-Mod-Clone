@@ -8,11 +8,11 @@ import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.core.BlockPos;
 
 import net.mcreator.randommod.procedures.PlingProcedure;
+import net.mcreator.randommod.init.RandomModModTabs;
 import net.mcreator.randommod.init.RandomModModItems;
 
 public class MusicalSwordItem extends SwordItem {
@@ -41,7 +41,7 @@ public class MusicalSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(RandomModModItems.MUSICAL.get()));
 			}
-		}, 3, -3f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT));
+		}, 3, -3f, new Item.Properties().tab(RandomModModTabs.TAB_MUSIC_MOD));
 	}
 
 	@Override

@@ -6,7 +6,6 @@ import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
@@ -17,13 +16,14 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 
+import net.mcreator.randommod.init.RandomModModTabs;
 import net.mcreator.randommod.entity.UkelllelEntity;
 
 import java.util.List;
 
 public class UkelllelItem extends Item {
 	public UkelllelItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).durability(100));
+		super(new Item.Properties().tab(RandomModModTabs.TAB_MUSIC_MOD).durability(100));
 	}
 
 	@Override
